@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_334fa69add497ec2f4be3f18422207b6a90b1b48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/core-3.3.0_669021fe9da0d123f9a0d1f1b9dc186d70aa4166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_5428d1af35c9b78e728211e9bc6efa7e76aeda1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_0e234d8ca38bb9e488b2a808ad3a39a7849733ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_9e10777468216319bca479cba26412c8dc57b09c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.1_63293096ba8975589180991379762d116dc4c77f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_18e92186810096e59381b4c4a4933f98b195c797.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_b6954cded2eee7a793c342f513826b33ce215124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_c60fec24e7783d87a9de366bce78277d4c98558c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-share/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc83ab7a5ce1e0296cf18a52a6edbcfef815e6cf">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-share-4.28.0_c4f62d1d38bbea215881e97e763dae4ff9fae3a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_f7756e7cba6ea622bd99574eb054e6eee61c214f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.28.0_c7a6cb054a930faa56f4b11edc1ce777a49d9e55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.1_855403fce4d2b02dce5f6de262a4813cd4f79390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/PlatziMusic/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/PlatziMusic-react-native-vector-icons-unspecified_fb879c1c1c4f6ad5e9abc93d93962e4134967ce6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-core-4.28.0_db0e7c44a947190062549c516b8eb4d739ab0776.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.1/e1bb32b12b25e2f78e6786059ca7ea878f8345e0/support-annotations-26.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e1bb32b12b25e2f78e6786059ca7ea878f8345e0">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.1_1329f33e2d84b4dbfdb09ec0e0fb85ac6c064520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_2f96901fcaa00f86877e84278bdea581ed2aefdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_b96298f929ee710b2a43749ad735cbff41000732.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-common-4.28.0_3d1111a4dfbba2a589bc3dfc35447852ad3a62a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-messenger/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-messenger-4.28.0_cedb1c7b72bbc39a366f9607656ac776b312f5e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_8e5c5409ef7439586d192cf38a9d228f8877d110.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_434fb6f6b32098673faa704169daacce7f774f9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_4ad6f15cf37743380c07681cdfee6ce625dc6694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="681eeeaec5300e5257ad9bf889c3859ba3833d5a">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.0.1_7572b38ced097efb25ffacf6a21ca193b7630c2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="083e7bc5a9d9404b49b8f34e5091532361fa28e6">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.0.1_c8814edc7be49415f99bee1fa11f1025994336cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.1_4810c4036b0dcdac5745a344f4ad0de7f889b451.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_556c3742ef566a3152c9cd5c12a8d9fb776446a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_cf10113b5f8753d12972142ab443c70e856c03b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_69e235a800a25636cdd0948a43893f7212325ddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-login-4.28.0_a015f86b57fc95d2b82ce81c583b7a9d1483e0b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-places/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-places-4.28.0_9a9a0ba9723087f9e11da3e2177ab2095382df7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_6ed465aa7b56fc12b2b713b3f1c070ed30cefc4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e7424f816f538c2acfba6169b25e297ea22afbd8">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.0.1_4d5fbb142dd8e580652a3ed1493162a760cac2b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.1_2a54a21a502edd3201b5fb2d20d39b9972235e96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.1_b23972d6782f845018102884c98776651488ed71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.1_12e02bd6a557a090352ebe3d9a5fceee54bcc566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.28.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.28.0_1df63d80b433fc4485f989706d6ce9d1367d8d2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c48fdcad1936ee4ba04a4af553e31540651c13a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_5b36e6d4c75ff2305b861646d1692cbf0a668b9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/PlatziMusic/react-native-fbsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ce2b293f217b5d6255c438847e083d4376367ad0">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/PlatziMusic-react-native-fbsdk-unspecified_e1d70fd9d87d9a8d6e8c1a53c28cd12d2461fada.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/lmdelgallego/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_83e81bd15a6f6ab87e1cc67e74a3ba4991561f21.jar" />
+    </item>
+
+</items>
