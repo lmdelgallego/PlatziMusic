@@ -25,10 +25,32 @@ const config = {
 };
 firebase.initializeApp(config);
 
+const {FacebookAuthProvider} = firebase.auth;
+const firebaseAuth = firebase.auth();
+
 export default class LoginView extends Component<{}> {
 
   authenticateUser(accessToken){
 
+    const credential = FacebookAuthProvider.credential(accessToken);
+    // Sign in user with another account
+    auth.signInWithCredential(credential).then(function(user) {
+      console.log("Sign In Success", user);
+      var currentUser = user;
+      // Merge prevUser and currentUser data stored in Firebase.
+      // Note: How you handle this is specific to your application
+
+      // After data is migrated delete the duplicate user
+      return user.delete().then(function() {
+        // Link the OAuth Credential to original account
+        return prevUser.link(credential);
+      }).then(function() {
+        // Sign in with the newly linked credential
+        return auth.signInWithCredential(credential);
+      });
+    }).catch(function(error) {
+      console.log("Sign In Error", error);
+    });
   }
 
   handleLoginFinished = (error, result) => {
@@ -39,8 +61,8 @@ export default class LoginView extends Component<{}> {
     } else {
       AccessToken.getCurrentAccessToken().then(
         (data) => {
-          // alert(data.accessToken.toString())
-          Actions.home();
+          this.authenticateUser(data.accessToken.toString());
+          
         }
       )
     }
