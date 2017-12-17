@@ -8,7 +8,8 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  Text
+  Text,
+  Button
 } from 'react-native';
 import FBSDK, {LoginButton, AccessToken} from 'react-native-fbsdk';
 import {Actions} from 'react-native-router-flux';
@@ -30,27 +31,39 @@ const firebaseAuth = firebase.auth();
 
 export default class LoginView extends Component<{}> {
 
-  authenticateUser(accessToken){
+  state = {
+    user: null
+  }
 
-    const credential = FacebookAuthProvider.credential(accessToken);
-    // Sign in user with another account
-    auth.signInWithCredential(credential).then(function(user) {
-      console.log("Sign In Success", user);
-      var currentUser = user;
-      // Merge prevUser and currentUser data stored in Firebase.
-      // Note: How you handle this is specific to your application
+  componentWillMount(){
+    this.authenticateUser();
+  }
 
-      // After data is migrated delete the duplicate user
-      return user.delete().then(function() {
-        // Link the OAuth Credential to original account
-        return prevUser.link(credential);
-      }).then(function() {
-        // Sign in with the newly linked credential
-        return auth.signInWithCredential(credential);
+  authenticateUser = () => {
+
+    AccessToken.getCurrentAccessToken().then((data) => {
+      const {accessToken} = data;
+      const credential = FacebookAuthProvider.credential(accessToken.toString());
+      firebaseAuth.signInWithCredential(credential).then((user) => {
+        
+        console.warn("Sign In Success", user.displayName);
+        // Merge prevUser and user data stored in Firebase.
+        // Note: How you handle this is specific to your application
+        this.setState({ user });
+        Actions.home()
+        // // After data is migrated delete the duplicate user
+        // return user.delete().then(function() {
+        //   // Link the OAuth Credential to original account
+        //   return prevUser.link(credential);
+        // }).then(function() {
+        //   // Sign in with the newly linked credential
+        //   return firebaseAuth.signInWithCredential(credential);
+        // });
+      }).catch(function(error) {
+        console.log("Sign In Error", error);
       });
-    }).catch(function(error) {
-      console.log("Sign In Error", error);
-    });
+    })
+    // Sign in user with another account
   }
 
   handleLoginFinished = (error, result) => {
@@ -59,12 +72,7 @@ export default class LoginView extends Component<{}> {
     } else if (result.isCancelled) {
       alert("login is cancelled.");
     } else {
-      AccessToken.getCurrentAccessToken().then(
-        (data) => {
-          this.authenticateUser(data.accessToken.toString());
-          
-        }
-      )
+      this.authenticateUser();
     }
   }
 
@@ -74,6 +82,9 @@ export default class LoginView extends Component<{}> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Bienvenidos a PlatziMusic</Text>
+        <Text style={styles.welcome}>
+          { this.state.user && this.state.user.displayName }
+        </Text>
         <LoginButton
           readPermissions={["public_profile","email"]}
           onLoginFinished={ this.handleLoginFinished}
