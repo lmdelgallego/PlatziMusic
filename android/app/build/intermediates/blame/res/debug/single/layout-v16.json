@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/luisdelgallego/Documents/Proyectos/PlatziMusic/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/luisdelgallego/Documents/Proyectos/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
     }
