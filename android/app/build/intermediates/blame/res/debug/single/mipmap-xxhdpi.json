@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/luisdelgallego/Documents/Proyectos/PlatziMusic/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/luisdelgallego/Documents/Proyectos/PlatziMusic/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/lmdelgallego/Documents/PROJECTS/LUISMIGUEL/PlatziMusic/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
