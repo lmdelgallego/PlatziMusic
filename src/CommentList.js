@@ -30,7 +30,6 @@ export default class CommentList extends Component<{}> {
 
   componentWillReceiveProps(newProps){
     if(newProps.comments !== this.props.comments){
-      console.warn(newProps.comments)
       this.updateDataSource(newProps.comments)
     }
   }
@@ -48,7 +47,7 @@ export default class CommentList extends Component<{}> {
         dataSource={this.state.dataSource}
         renderRow={ (comment) => { 
           return(
-            <Comment text={comment.text.toString()}/>
+            <Comment text={comment.text.toString()} avatar={comment.userPhoto}/>
           )
         }}
       />

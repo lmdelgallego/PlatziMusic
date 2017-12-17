@@ -9,7 +9,8 @@ import {
   StyleSheet,
   View,
   TextInput,
-  TouchableOpacity
+  TouchableOpacity,
+  Text
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -37,10 +38,16 @@ export default class ArtistDetailView extends Component<{}> {
   }
   handleSend = () =>{
     const {text} = this.state;
+    const {uid, photoURL } = firebaseAuth.currentUser;
     const artistCommentsref = this.getArtistCommentRef()
     // Create a new post reference with an auto-generated id
     const newCommentRef = artistCommentsref.push();
-    newCommentRef.set({ text });
+    newCommentRef.set({ 
+      text,
+      userPhoto: photoURL,
+      uid
+    });
+    this.setState({text: ''});
   }
 
   handleChangeText = (text) =>{
@@ -58,10 +65,12 @@ export default class ArtistDetailView extends Component<{}> {
     return (
       <View style={styles.container}>
         <ArtistBox artist={artist} />
+        <Text style={styles.headerComment}>Comentarios</Text>
         <CommentList comments={this.state.comments}/>
         <View style={styles.inputContainer}>
           <TextInput 
             style={styles.input}
+            value={this.state.text}
             placeholder="Opina sobre este artista "
             onChangeText={this.handleChangeText}
           />
@@ -82,7 +91,6 @@ const styles = StyleSheet.create({
   },
   inputContainer:{
     flexDirection: 'row',
-    position: 'absolute',
     bottom: 0,
     right: 0, 
     left: 0,
@@ -94,5 +102,10 @@ const styles = StyleSheet.create({
   input:{
     flex: 1,
     height: 50
+  },
+  headerComment:{
+    fontSize: 20,
+    paddingHorizontal: 15,
+    marginVertical:10
   }
 });
