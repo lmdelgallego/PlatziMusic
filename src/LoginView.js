@@ -36,7 +36,7 @@ export default class LoginView extends Component<{}> {
       const credential = FacebookAuthProvider.credential(accessToken.toString());
       firebaseAuth.signInWithCredential(credential).then((user) => {
         
-        console.warn("Sign In Success", user.displayName);
+        // console.warn("Sign In Success", user.displayName);
         // Merge prevUser and user data stored in Firebase.
         // Note: How you handle this is specific to your application
         this.setState({ user });
