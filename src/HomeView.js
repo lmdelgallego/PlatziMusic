@@ -7,7 +7,9 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  View
+  View,
+  ActivityIndicator,
+  Platform
 } from 'react-native';
 
 import ArtistList from './ArtistList';
@@ -19,7 +21,7 @@ export default class HomeView extends Component<{}> {
     super(props);
 
     this.state = {
-      artists: []
+      artists: null
     }
   }
   
@@ -33,9 +35,11 @@ export default class HomeView extends Component<{}> {
 
     return (
       <View style={styles.container}>
-        <ArtistList
-          artists={artists}
-        />
+      {
+        (artists === null) ?
+        <ActivityIndicator style={styles.lodaing} size="large" /> :
+        <ArtistList artists={artists} /> 
+      }
       </View>
     );
   }
@@ -45,5 +49,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'lightgray',
+    paddingTop: Platform.select({
+      ios: 30,
+      android: 0
+    })
+  },
+  lodaing:{
+    flex: 1,
+    alignContent: 'center'
   }
 });

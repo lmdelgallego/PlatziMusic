@@ -9,7 +9,9 @@ import {
   StyleSheet,
   View,
   Text,
-  Button
+  Button,
+  ImageBackground,
+  Image
 } from 'react-native';
 import FBSDK, {LoginButton, AccessToken} from 'react-native-fbsdk';
 import {Actions} from 'react-native-router-flux';
@@ -71,10 +73,12 @@ export default class LoginView extends Component<{}> {
 
     return (
       <View style={styles.container}>
+        <Image source={require('./3_4_2500.jpg')} style={styles.bgimage} />
         <Text style={styles.welcome}>Bienvenidos a PlatziMusic</Text>
         <Text style={styles.welcome}>
           { this.state.user && this.state.user.displayName }
         </Text>
+        <Image source={require('./badge-react-native.png')} style={styles.logo}/>
         <LoginButton
           readPermissions={["public_profile","email"]}
           onLoginFinished={ this.handleLoginFinished}
@@ -89,11 +93,23 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'lightgray',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+  },
+  bgimage:{
+    position: 'absolute',
+    top:0,
+    left: 0
+  },
+  logo:{
+    width: 150,
+    height: 150,
+    marginBottom: 15,
   },
   welcome:{
     fontSize: 24,
     fontWeight: '600',
-    marginBottom: 20
+    marginBottom: 20,
+    backgroundColor: 'transparent',
+    color: 'white'
   }
 });
